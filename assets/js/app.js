@@ -27,7 +27,7 @@ var svg = d3.select("#scatter")
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-// Import Data/// CHANGE HERE /////// 
+// Import Data
 //var file = "https://github.com/jvbonini/assignment-13/blob/master/assets/data/data.csv"
 var file = "assets/data/data.csv"
 
